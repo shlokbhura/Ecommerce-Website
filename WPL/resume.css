@@ -1,0 +1,40 @@
+* Write CSS Here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.full {
+    width: 40%;
+    max-width: 600px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left {
+    position: relative;
+    background-color: rgb(8, 93, 104);
+    padding: 20px;
+ 
+}
+.right {
+    position: initial;
+    background-color: rgb(221, 244, 247);
+    padding: 20px;
+ 
+}
+.image, .Contact, .Skills, .STRENGHTHS , .Language, .Hobbies, .title,
+.OBJECTIVE, .ACHIEVEMENTS, .Education, .INTERESTS ,.INTERNSHIPS {
+    margin-bottom: 30px;
+}
+.h2 {
+    background-color: rgb(4, 96, 150);
+}

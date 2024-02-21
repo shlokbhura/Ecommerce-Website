@@ -1,0 +1,283 @@
+<style>
+BODY {
+  font-family: Trebuchet MS;
+  margin:20px;
+
+  background: linear-gradient(to right, rgb(245, 216, 216) , rgb(101, 7, 98));
+}
+
+H1 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.myTimetable{
+  width:100%;
+  
+  table-layout: fixed;
+}
+
+.myTimetable THEAD{
+  color: #3e2626;
+}
+
+.myTimetable TBODY {
+  background-color: #8d8398;
+}
+
+.myTimetable TD {
+  border: 1px solid rgb(7, 7, 7);
+  padding: 6px;
+  text-align: center;
+}
+.myTimetable TBODY TR TD:first-child {
+  background-color: #d85ea7;
+  font-weight: bold;
+}
+
+.break {
+  background-color: #FF0066 !important;
+  font-style: italic;
+}
+
+.subject {
+  font-size: 12pt;
+  margin-bottom:4px;
+}
+
+.room {
+  font-size: 10pt;
+  font-style: italic;
+}
+
+table{
+  border: 2px solid rgb(12, 12, 12);
+}
+tr{
+  border: 2px solid rgb(5, 5, 5);
+}
+td{
+  border: 2px solid rgb(11, 11, 10);
+}
+th{
+  border: 2px solid rgb(15, 15, 15);
+
+}
+</style>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Document</title>
+</head>
+
+<body>
+  <table border="n" style="text-align: center; margin: auto">
+    <tr>
+      <th>Time/Day</th>
+      <th colspan="4">Monday</th>
+      <th colspan="4">Tuesday</th>
+      <th colspan="4">Wednesday</th>
+      <th colspan="4">Thursday</th>
+      <th colspan="4">Friday</th>
+    </tr>
+
+    <tr>
+      <td>8:30-9:30</td>
+      <td colspan="4"></td>
+      <td rowspan="2">H-ADS_1 HADS B109 BHN|HADS_5 H-ADS B217 GJS</td>
+      <td rowspan="2">H-ADS_6 H-ADS B117 VPV</td>
+      <td rowspan="2"></td>
+      <td rowspan="2">H-ADS_4 H-ADS B215 AAG</td>
+      <td colspan="4"></td>
+      <td colspan="4"></td>
+      <td colspan="4"></td>
+    </tr>
+    <tr>
+      <td>9:30-10:30</td>
+      <td colspan="4">TAC B203 VPV</td>
+      <td colspan="4">
+        H-ADS B204 BHN|H-CSFC B505
+        ZSS|H-ADS B203 VPV|M-DSA B205
+
+        F1
+      </td>
+      <td colspan="4">
+        H-ADS B204 BHN|H-ADS B203
+        VPV|H-CSFC B505 ZSS|M-DSA
+        B205 F1
+      </td>
+      <td colspan="4">
+        H-ADS B204 BHN|H-
+        ADS B203 VPV|M-DSA
+
+        B205 F1|H-CSFC B505
+        ZSS
+      </td>
+    </tr>
+    <tr>
+      <td>10:30-11:30</td>
+      <td>A1
+        PSOT
+        CCF_A
+        RBS</td>
+      </td>
+      <td rowspan="2">A2 AOA
+        B217
+        BGK/KMK</td>
+      <td rowspan="2">A3
+        RDBMS
+        B116
+        BPK</td>
+      <td rowspan="2">A4
+        AOA
+        B109
+        SRS</td>
+      <td rowspan="2">A1 AOA
+        B215 ASP</td>
+      <td rowspan="2">A2 WPL
+        B216
+        SRS</td>
+      <td rowspan="2">A3 MP
+        B117
+        ZSS</td>
+      <td rowspan="2">A4
+        RDBMS
+        B416
+        BPK/JMR</td>
+      <td colspan="4">PSOT B203 RBS</td>
+      <td rowspan="2">A1
+        WPL
+        B115
+        UBJ</td>
+      <td rowspan="2">A2
+        WPL
+        B216
+        SRS</td>
+      <td rowspan="2">A3
+        WPL
+        B514
+        RAN</td>
+      <td>A4
+        PSOT
+        CCF_A
+        DPS</td>
+      </td>
+      <td colspan="4">RDBMS B203 MMk</td>
+
+    </tr>
+
+    <tr>
+      <td>11:30-12:30</td>
+      <td>A1 TAC
+        B203
+        AAG</td>
+
+      <td colspan="4">RDBMS B203 MMk</td>
+      <td>A4 TAC
+        B205
+        VPV</td>
+      <td colspan="4">AOA B203 BGK</td>
+    </tr>
+
+    <tr>
+      <td>12:30-1:15</td>
+      <td colspan="20">Break</td>
+    </tr>
+
+    <tr>
+      <td>1:15-2:15</td>
+      <td rowspan="2">A1
+        RDBMS
+        B116
+        JMR</td>
+      <td>A2 PSOT
+        CCF_A
+        RBS</td>
+      <td rowspan="2">A3 WPL
+        B514
+        RAN</td>
+      <td rowspan="2">A4 MP
+        B210A
+        A_H</td>
+      <td rowspan="2">AA1 WPL
+        B115 UBJ</td>
+      <td rowspan="2">A2 MP
+        B210A
+        BNP</td>
+      <td>A3 TAC
+        B205
+        AAG</td>
+      <td rowspan="2">A4 WPL
+        B216
+        SCP/ADK</td>
+      <td rowspan="2">A1 MP
+        B210B
+        AAG</td>
+
+      <td rowspan="2">A2
+        RDBMS
+        B116
+        MMk</td>
+      <td rowspan="2">A3
+        AOA
+        B217
+        GSS</td>
+      <td rowspan="2">A4 WPL
+        B216
+        SCP/ADK</td>
+      <td colspan="4">TAC B203 VPV</td>
+
+
+      <td colspan="4">TAC B203 VPV</td>
+    </tr>
+
+    <tr>
+      <td>2:15-3:15</td>
+      <td>A2 TAC
+        B201 PRG</td>
+      <td>A3 TAC
+        B205
+        AAG</td>
+      <td colspan="4">RDBMS B203 MMk</td>
+      <td colspan="4">PSOT B203 RBS</td>
+    </tr>
+
+    <tr>
+      <td>3:15-4:15</td>
+      <td>A1 MP
+        B210B
+        AAG</td>
+      <td>A2 MP
+        B117 BNP</td>
+      <td>A3 MP
+        B207
+        ZSS</td>
+      <td>A4 MP
+        B417
+        A_H</td>
+
+      <td colspan="4">AOA B205 BGK</td>
+      <td colspan="4">AOA B203 BGK</td>
+      <td colspan="4">PSOT B203 RBS</td>
+      <td rowspan="2">H-ADS_2 H-ADS B115 GJS</td>
+      <td rowspan="2">H-ADS_3 H-ADS B209 VPV</td>
+    </tr>
+
+    <tr>
+      <td>4:15-5:15</td>
+      <td colspan="4"></td>
+      <td colspan="4"></td>
+      <td colspan="4"></td>
+      <td colspan="4"></td>
+    </tr>
+
+    <tr>
+      <td>5:15-5:30</td>
+      <td colspan="20">Tea Break</td>
+    </tr>
+  </table>
+</body>
+
+</html>
